@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">InventoryManager</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="inventory_manager">Inventory Manager</string>
+    <string name="login">Login</string>
+    <string name="new_user_click_here">New User? click here</string>
+    <string name="add">add</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="grid">Grid</string>
+    <string name="back">Back</string>
+    <string name="enter_item_name">Enter item name:</string>
+    <string name="item_name">Item name</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="edit_item">Edit Item</string>
+    <string name="name">Name:</string>
+    <string name="quantity">Quantity:</string>
+    <string name="description">Description:</string>
+    <string name="location">Location:</string>
+    <string name="logout">Logout</string>
+    <string name="are_you_sure_you_want_to_logout">Are you sure you want to logout?</string>
+    <string name="edit_item_activity_label">Edit Item</string>
+    <string name="new_user_activity_label">New User</string>
+    <string name="enter_new_username">Enter new username:</string>
+    <string name="enter_new_password">Enter new password:</string>
+    <string name="subtract">subtract</string>
+</resources>
