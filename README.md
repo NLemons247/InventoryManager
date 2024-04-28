@@ -1,1 +1,14 @@
 Application to help with inventory management of a small business.
+
+The target audience for this application includes a large demographic, the application can be used by anyone who needs to organize an inventory of items. The application as it stands right now is mainly geared toward small business, but has the ability to be scaled to a larger business in the future. Inventory Manager allows the user to add, subtract, delete, and edit items in a virtual inventory.
+
+The screens included in this application are the login screen, new user screen, home screen, search screen, item info screen, grid view screen, and edit info screen. These screens work together to move a user through all of the tasks that are involved in managing an inventory. I made sure to keep the style or theme the same on each screen so it was intuitive what the different tasks achieved and that things were able to interacted with. It is important to make the learning curve of an application a small as possible to allow users to see the value of the service that your application is providing as quickly as possible. 
+
+The process of coding this application started with the design aspect, we were asked to think about and design the different screens we would need in the first step of development, before we added functionality. I ended up changing a few things along the road as I found that certain screens were not going to be useful or I needed certain functionality to have its own screen. After the design was finished, I started implementing the logic for the appication from the front screen (login screen) and worked my way in, starting mainly with the functionality of being able to navigate between the screens. Then, figuring out the other more in-depth inventory control features. 
+
+I tested often, using a mixture of logging and debugging, but mainly I just tried to use the application in the way that I thought people would use it in the real world. If something didn't transfer the correct data to a screen that needed it, I would then utilize the tools of android studio and start the debuggin process. 
+
+My biggest challenge was figuring out how to access the database without freezing up the UI on the application. This meant learning how to handle background threads and use them to transfer data to the main UI thread without causeing it to lock. So this would definitely be during the implementation phase of development. How I overcame this hurdle was by reading a lot of documentation on threading and how SQLite and Room worked to make my job easier. 
+
+I think the thing that I am proudest of is figuring out the threading of the application. It doesn't seem that difficult now, but I am proud that I figured it out. I think this is probably the most complex thing that I have learned so far. 
+
